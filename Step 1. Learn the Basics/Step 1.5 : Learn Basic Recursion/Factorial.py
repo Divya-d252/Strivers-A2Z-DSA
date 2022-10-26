@@ -11,13 +11,13 @@ class Solution:
             l.append(fact)
         return l
   
-Factorial of a large Number
+# Factorial of a large Number
 
-Concept - 
-https://www.geeksforgeeks.org/factorial-large-number/
+# Concept - 
+# https://www.geeksforgeeks.org/factorial-large-number/
   
-Problem -
-https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
+# Problem -
+# https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
   
 class Solution:
     def factorial(self, N):
