@@ -5,6 +5,11 @@ class Solution:
         k=k%n
         arr[:]=[*arr[k:],*arr[:k]]
         return arr
+      
+class Solution:
+    def leftRotate(self, arr, n, d):
+        arr[:] = (arr[:d][::-1]+arr[d:][::-1])[::-1]
+        return arr
 
 # Right Rotation:
   
